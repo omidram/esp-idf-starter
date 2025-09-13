@@ -1,9 +1,18 @@
-# Ignore build files and configurations
+# Ignore build output
 build/
+
+# Ignore SDK configuration files
 sdkconfig
 sdkconfig.old
+
+# Ignore IDE configuration files
 .vscode/
 .idea/
-*.elf
+
+# Ignore binary and map files
 *.bin
 *.map
+*.elf
+
+# Ignore system files
+.DS_Store
