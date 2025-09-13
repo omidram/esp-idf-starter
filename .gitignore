@@ -1,0 +1,9 @@
+# Ignore build files and configurations
+build/
+sdkconfig
+sdkconfig.old
+.vscode/
+.idea/
+*.elf
+*.bin
+*.map
