@@ -66,7 +66,9 @@ esp-idf-starter/
 ├─ .gitignore                     # Git ignore file
 └─ .github/workflows/ci.yml       # GitHub Actions CI configuration
 ```
-
+---
+##📊 Visualization of the Project Layout
+```mermaid
 graph LR
   A[app_core] -->|Contains| B[Logging System]
   A -->|Contains| C[Version Control]
